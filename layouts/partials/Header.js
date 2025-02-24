@@ -17,15 +17,15 @@ const Header = () => {
   const [navOpen, setNavOpen] = useState(false);
 
   // logo source
-  const { logo } = config.site;
+  // const { logo } = config.site;
   const { enable, label, link } = config.nav_button;
 
   return (
     <header className="header">
-      <nav className="navbar container">
+      <nav className="navbar container flex items-center justify-between">
         {/* logo */}
         <div className="order-0">
-          <Logo src={logo} />
+          <Logo src={'/logo/black-no-bg.png'} />
         </div>
 
         {/* navbar toggler */}
@@ -53,9 +53,8 @@ const Header = () => {
         {/* Menu */}
         <div
           id="nav-menu"
-          className={`order-3 md:order-1 ${
-            navOpen ? "max-h-[1000px]" : "max-h-0"
-          }`}
+          className={`order-3 md:order-1 ${navOpen ? "max-h-[1000px]" : "max-h-0"
+            }`}
         >
           <ul className="navbar-nav block w-full md:flex md:w-auto lg:space-x-2">
             {main.map((menu, i) => (
@@ -86,9 +85,8 @@ const Header = () => {
                     <Link
                       href={menu.url}
                       onClick={() => setNavOpen(false)}
-                      className={`nav-link block ${
-                        pathname === menu.url ? "nav-link-active" : ""
-                      }`}
+                      className={`nav-link block ${pathname === menu.url ? "nav-link-active" : ""
+                        }`}
                     >
                       {menu.name}
                     </Link>

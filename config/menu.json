@@ -13,6 +13,10 @@
       "url": "/pricing"
     },
     {
+      "name": "Careers",
+      "url": "/careers"
+    },
+    {
       "name": "Contact",
       "url": "/contact"
     },
@@ -32,6 +36,10 @@
         {
           "text": "Quick Start",
           "url": "#"
+        },
+        {
+          "text": "Careers",
+          "url": "/careers"
         }
       ]
     },

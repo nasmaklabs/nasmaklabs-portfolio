@@ -12,8 +12,8 @@ const Logo = ({ src }) => {
       href={base_url}
       className="navbar-brand block py-1"
       style={{
-        height: logo_height.replace("px", "") + "px",
-        width: logo_width.replace("px", "") + "px",
+        height: 60,
+        width: 150,
       }}
     >
       {src || logo ? (
