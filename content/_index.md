@@ -1,35 +1,34 @@
 ---
 banner:
-  title: Driven by Logic. Defined by Excellence
-  content: We don’t rely on illusions or buzzwords—we build real, reliable, and scalable solutions. Our team of skilled developers, technical experts, and strategists is committed to engineering excellence and delivering impactful products.
+  title: "Driven by Logic, Defined by Excellence"
+  content: At Nasmak Labs, we deliver tangible results through innovation. Our experts build robust, scalable solutions in web, mobile, Web3, and AI. Let’s turn your vision into reality.
   image: /images/banner-art.svg
   button:
     label: "Contact Us"
     link: "/contact"
 
 # feature
-feature: 
+feature:
   title: "Something You Need To Know"
   features:
-  - name: "Clean Code"
-    icon: "/images/code.svg"
-    content: "We write well-structured, maintainable, and efficient code to ensure scalability and long-term success."
-  - name: "Object Oriented"
-    icon: "/images/oop.svg"
-    content: "Our development follows object-oriented principles, making code reusable, modular, and easier to manage."
-  - name: "24h Service"
-    icon: "/images/user-clock.svg"
-    content: "We provide round-the-clock support to keep your systems running smoothly, ensuring minimal downtime."
-  - name: "Value for Money"
-    icon: "/images/love.svg"
-    content: "High-quality software solutions at competitive prices, ensuring the best return on your investment."
-  - name: "Faster Response"
-    icon: "/images/speedometer.svg"
-    content: "Quick turnaround times and efficient development processes to bring your ideas to life faster."
-  - name: "Cloud Support"
-    icon: "/images/cloud.svg"
-    content: "Seamless integration with cloud platforms for better scalability, security, and performance."
-
+    - name: "Clean Code"
+      icon: "/images/code.svg"
+      content: "We write well-structured, maintainable, and efficient code to ensure scalability and long-term success."
+    - name: "Object Oriented"
+      icon: "/images/oop.svg"
+      content: "Our development follows object-oriented principles, making code reusable, modular, and easier to manage."
+    - name: "24h Service"
+      icon: "/images/user-clock.svg"
+      content: "We provide round-the-clock support to keep your systems running smoothly, ensuring minimal downtime."
+    - name: "Value for Money"
+      icon: "/images/love.svg"
+      content: "High-quality software solutions at competitive prices, ensuring the best return on your investment."
+    - name: "Faster Response"
+      icon: "/images/speedometer.svg"
+      content: "Quick turnaround times and efficient development processes to bring your ideas to life faster."
+    - name: "Cloud Support"
+      icon: "/images/cloud.svg"
+      content: "Seamless integration with cloud platforms for better scalability, security, and performance."
 
 # services
 services:
@@ -46,13 +45,13 @@ services:
 
   - title: "Expert Cybersecurity & Information Protection"
     content: "We specialize in cybersecurity, offering cutting-edge solutions to protect your business from digital threats. Our services include risk assessment, data encryption, penetration testing, and compliance consulting to keep your systems secure."
-    images: 
+    images:
       - "/images/service-slide-1.png"
     button:
       enable: true
       label: "Check it out"
       link: "/contact"
-  
+
   - title: "A Team of Skilled Experts, Delivering Excellence"
     content: "Our team consists of experienced professionals dedicated to providing top-quality IT solutions. Whether it's custom software development, UI/UX design, or cloud architecture, we ensure seamless execution and unmatched results."
     images:
@@ -75,13 +74,11 @@ services:
       label: "Check it out"
       link: "/contact"
 
-
 # workflow
-workflow: 
+workflow:
   title: "Experience the Best Workflow with Us"
   image: "/images/banner.svg"
   description: ""
-
 
 # call_to_action
 call_to_action:
@@ -92,5 +89,4 @@ call_to_action:
     enable: true
     label: "Contact Us"
     link: "/contact"
-
 ---
